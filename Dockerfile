@@ -15,6 +15,10 @@ ENV ANON_ENABLE=NO
 ENV NO_ANON_PASSWD=NO
 ENV ANON_ROOT=/var/ftp
 
+ENV SSL_ENABLE=NO
+ENV RSA_PRIVATE_KEY_FILE=/
+ENV RSA_CERT_FILE=/
+
 COPY vsftpd.sh /usr/sbin/
 
 RUN chmod +x /usr/sbin/vsftpd.sh
