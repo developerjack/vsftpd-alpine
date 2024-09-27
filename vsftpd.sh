@@ -31,6 +31,10 @@ else
   anonymous_enable=$ANON_ENABLE
   no_anon_password=$NO_ANON_PASSWD
   anon_root=$ANON_ROOT
+  
+  ssl_enable=$SSL_ENABLE
+  rsa_private_key_file=$RSA_PRIVATE_KEY_FILE
+  rsa_cert_file=$RSA_CERT_FILE
   " >> /etc/vsftpd/vsftpd.conf
 fi
 
