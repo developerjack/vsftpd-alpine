@@ -33,7 +33,7 @@ else
   anon_root=$ANON_ROOT
   
   ssl_enable=$SSL_ENABLE
-  implicit_ssl=$SSL_ENABLE
+  # implicit_ssl=$SSL_ENABLE
   rsa_private_key_file=$RSA_PRIVATE_KEY_FILE
   rsa_cert_file=$RSA_CERT_FILE
   " >> /etc/vsftpd/vsftpd.conf
