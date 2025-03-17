@@ -37,6 +37,9 @@ else
   force_local_data_ssl=$SSL_ENABLE
   rsa_private_key_file=$RSA_PRIVATE_KEY_FILE
   rsa_cert_file=$RSA_CERT_FILE
+
+  force_local_data_ssl=$SSL_ENABLE
+  force_local_logins_ssl=$SSL_ENABLE
   " >> /etc/vsftpd/vsftpd.conf
 fi
 
