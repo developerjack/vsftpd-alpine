@@ -40,7 +40,7 @@ else
   ssl_sslv3=NO
   rsa_private_key_file=$RSA_PRIVATE_KEY_FILE
   rsa_cert_file=$RSA_CERT_FILE
-
+  
   " >> /etc/vsftpd/vsftpd.conf
 fi
 
