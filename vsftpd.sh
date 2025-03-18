@@ -33,13 +33,14 @@ else
   anon_root=$ANON_ROOT
   
   ssl_enable=$SSL_ENABLE
-  force_local_logins_ssl=$SSL_ENABLE
-  force_local_data_ssl=$SSL_ENABLE
+  force_local_logins_ssl=YES
+  force_local_data_ssl=YES
+  ssl_tlsv1=YES
+  ssl_sslv2=NO
+  ssl_sslv3=NO
   rsa_private_key_file=$RSA_PRIVATE_KEY_FILE
   rsa_cert_file=$RSA_CERT_FILE
 
-  force_local_data_ssl=$SSL_ENABLE
-  force_local_logins_ssl=$SSL_ENABLE
   " >> /etc/vsftpd/vsftpd.conf
 fi
 
