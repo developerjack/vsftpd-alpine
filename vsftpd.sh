@@ -17,6 +17,8 @@ else
   chroot_local_user=YES
   passwd_chroot_enable=YES
   allow_writeable_chroot=YES
+  virtual_use_local_privs=YES
+  user_config_dir=/etc/vsftpd/user_conf
   
   ftpd_banner=Welcome to vsftpd
   max_clients=10
