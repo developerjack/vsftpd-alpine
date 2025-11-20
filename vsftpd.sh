@@ -20,7 +20,6 @@ else
   virtual_use_local_privs=YES
   user_config_dir=/etc/vsftpd/user_conf
   
-  ftpd_banner=Welcome to vsftpd
   max_clients=10
   max_per_ip=5
   local_umask=022
